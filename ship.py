@@ -1,6 +1,5 @@
 import pygame
 
-
 class Ship:
     """A class to manage the ship."""
 
@@ -37,4 +36,3 @@ class Ship:
             self.x -= self.settings.ship_speed
 
         self.rect.x = self.x
-        print(self.rect.x)
